@@ -1,0 +1,1559 @@
+2025-08-07 18:23:32 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-07 18:24:20 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-07 18:24:43 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 09:29:08 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 09:29:38 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 09:59:46 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 09:59:46 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 09:59:46 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [BLANK_AUDIO]
+
+2025-08-08 09:59:50 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望执行的具体动作，例如“让motor_1旋转到45度并以中等速度转动”。
+2025-08-08 09:59:50 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望我控制的电机动作细节。例如，您可以告诉我具体是哪一个电机（motor_1, motor_2 或 motor_3），想要将其旋转到的角度或停止其运动等。
+2025-08-08 09:59:50 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请描述您想要控制的电机动作。例如，您可以告诉我哪个电机（motor_1, motor_2, motor_3）以什么角度旋转或者停止某个电机。
+2025-08-08 09:59:51 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要执行的具体操作，例如：“让motor_1电机旋转到45度，并以中等速度移动”。
+2025-08-08 09:59:51 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要执行的具体电机操作，例如电机ID和目标角度或速度。
+2025-08-08 09:59:51 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 09:59:54 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 09:59:57 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:00 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:03 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:06 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:09 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:12 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:15 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:18 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:21 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:24 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:27 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:30 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:33 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:36 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:39 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:42 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:45 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:48 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:51 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:54 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:00:57 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:02 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:01:02 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 10:01:02 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [BLANK_AUDIO]
+
+2025-08-08 10:01:02 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要执行的具体动作，例如指定电机ID和目标角度。
+2025-08-08 10:01:03 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望执行的具体动作，例如“让motor_1旋转90度并保持5秒”。
+2025-08-08 10:01:03 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望执行的具体操作，例如指定电机ID和目标角度或速度。
+2025-08-08 10:01:03 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID和动作细节，例如旋转的角度或速度。
+2025-08-08 10:01:03 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的具体电机动作，例如旋转哪个电机以及期望的角度或速度。
+2025-08-08 10:01:03 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 10:01:06 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:09 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:12 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:15 | INFO     | __main__:main:58 - Received command:  rotate to 90 degrees.
+
+2025-08-08 10:01:15 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate to 90 degrees.
+
+2025-08-08 10:01:16 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 10:01:16 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 10:01:19 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:22 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:25 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:28 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:31 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:34 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:37 | INFO     | __main__:main:58 - Received command:  rotate to zero degree.
+
+2025-08-08 10:01:37 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate to zero degree.
+
+2025-08-08 10:01:37 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 10:01:37 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 10:01:40 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:43 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:46 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:49 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:52 | INFO     | __main__:main:58 - Received command:  rotate to 90 degrees.
+
+2025-08-08 10:01:52 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate to 90 degrees.
+
+2025-08-08 10:01:53 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 10:01:53 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 10:01:56 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:01:59 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:02 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:05 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:08 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:11 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:14 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:17 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:20 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:23 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:26 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:29 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:32 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:35 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:38 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:41 | INFO     | __main__:main:58 - Received command:  rotate to zero degree.
+
+2025-08-08 10:02:41 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate to zero degree.
+
+2025-08-08 10:02:41 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 10:02:41 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 10:02:44 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:47 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:02:50 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 10:33:20 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:33:20 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 300度/秒
+2025-08-08 10:33:32 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:33:32 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 720度，速度 300度/秒
+2025-08-08 10:33:48 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:33:48 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 300度/秒
+2025-08-08 10:37:16 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:37:16 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 300度/秒
+2025-08-08 10:37:38 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:37:38 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 360度，速度 300度/秒
+2025-08-08 10:38:35 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:38:35 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 300度/秒
+2025-08-08 10:38:51 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:38:51 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 300度/秒
+2025-08-08 10:39:02 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 10:39:02 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 180度，速度 300度/秒
+2025-08-08 11:08:08 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 11:08:08 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令: Let motor 3 rotate to 360 degrees
+2025-08-08 11:08:08 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9b0e9f30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:08:08 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9b0e9f30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:08:08 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9b0ea1d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:08:09 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9b0e9540>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:08:09 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9b0e9480>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:10:00 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 11:10:00 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令: Let motor 3 rotate to 360 degrees
+2025-08-08 11:10:00 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9af99f30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:10:00 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9af99f30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:10:00 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9af9a1d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:10:00 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9af99540>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:10:00 | ERROR    | llm.ollama_motor_controller:call_ollama:124 - 调用Ollama API失败: HTTPConnectionPool(host='loaclhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9af99480>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-08-08 11:10:27 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 11:10:27 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令: Let motor 3 rotate to 360 degrees
+2025-08-08 11:10:32 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_3 旋转到 360度，速度 50度/秒
+2025-08-08 11:11:05 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 11:11:05 | INFO     | __main__:main:58 - Received command:  rotate to zero degree.
+
+2025-08-08 11:11:05 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate to zero degree.
+
+2025-08-08 11:11:08 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 11:11:08 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 11:11:11 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:14 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:17 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:20 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:23 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:26 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:29 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:32 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:35 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:38 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:41 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:44 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:47 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:11:50 | INFO     | __main__:main:58 - Received command:  rotate to 90 degree.
+
+2025-08-08 11:11:50 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate to 90 degree.
+
+2025-08-08 11:11:54 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 11:11:54 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 11:11:57 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:00 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:03 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:06 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:09 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:12 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:15 | INFO     | __main__:main:58 - Received command:  rotate too much.
+
+2025-08-08 11:12:15 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate too much.
+
+2025-08-08 11:12:27 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 11:12:27 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 11:12:30 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:33 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:36 | INFO     | __main__:main:58 - Received command:  [coughing]
+
+2025-08-08 11:12:36 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [coughing]
+
+2025-08-08 11:12:36 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:12:36 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:12:37 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:12:37 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:12:37 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:12:37 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 11:12:40 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:43 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:46 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:49 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:52 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:55 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:12:58 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:13:01 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:13:04 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:13:07 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:13:10 | INFO     | __main__:main:58 - Received command:  [clicking]
+
+2025-08-08 11:13:10 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [clicking]
+
+2025-08-08 11:13:14 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请说明您希望控制哪个电机以及具体的操作，比如旋转的角度或者直接停止电机运行。例如，“控制motor_1旋转到30度” 或者 “停止motor_2的运行”。
+2025-08-08 11:13:18 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请说明您想要控制哪个电机以及具体的操作。例如，您可以这样描述：“控制 motor_1 旋转到 90 度，并以中等速度转动。”
+2025-08-08 11:13:21 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供更多关于您想要控制的电机的信息，例如电机ID和您希望执行的具体操作（如旋转角度或停止电机）。这样我才能帮助你进行正确的控制。
+2025-08-08 11:13:34 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 45度，速度 50度/秒
+2025-08-08 11:13:34 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 -45度，速度 50度/秒
+2025-08-08 11:13:34 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 45, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 45, 'speed': 50, 'message': '电机 motor_1 开始旋转到 45度'}}, {'function': 'control_motor', 'arguments': {'angle': -45, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': -45, 'speed': 50, 'message': '电机 motor_1 开始旋转到 -45度'}}], 'message': '命令执行完成'}
+2025-08-08 11:13:37 | INFO     | __main__:main:58 - Received command:  [coughing]
+
+2025-08-08 11:13:37 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [coughing]
+
+2025-08-08 11:13:38 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:13:38 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:13:38 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:13:39 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:13:39 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:13:39 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 11:13:42 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:13:45 | INFO     | __main__:main:58 - Received command:  [clicking]
+
+2025-08-08 11:13:45 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [clicking]
+
+2025-08-08 11:13:47 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID以及具体的操作指令，例如旋转角度或直接停止电机等。
+2025-08-08 11:13:58 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 30度，速度 20度/秒
+2025-08-08 11:13:58 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 -30度，速度 20度/秒
+2025-08-08 11:13:58 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 30, 'motor_id': 'motor_1', 'speed': 20}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 30, 'speed': 20, 'message': '电机 motor_1 开始旋转到 30度'}}, {'function': 'control_motor', 'arguments': {'angle': -30, 'motor_id': 'motor_1', 'speed': 20}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': -30, 'speed': 20, 'message': '电机 motor_1 开始旋转到 -30度'}}], 'message': '命令执行完成'}
+2025-08-08 11:14:01 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:04 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:07 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:10 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:13 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:16 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:19 | INFO     | __main__:main:58 - Received command:  [coughing]
+
+2025-08-08 11:14:19 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [coughing]
+
+2025-08-08 11:14:19 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:14:20 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:14:20 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:14:20 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 11:14:22 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+
+Please provide clear instructions on how to control the motor.
+2025-08-08 11:14:22 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 11:14:25 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:28 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:31 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:34 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:37 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:40 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:43 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:46 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:49 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:52 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:55 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:14:58 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:15:01 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:15:04 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:15:07 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:15:10 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:15:13 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:15:16 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 11:15:19 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:55:39 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 13:55:39 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:55:42 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:55:45 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:55:48 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:55:51 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:55:54 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:55:57 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:56:00 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:56:31 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 13:56:31 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:56:34 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:56:37 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:56:40 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:56:43 | INFO     | __main__:main:58 - Received command:  rotate to non-tay degree.
+
+2025-08-08 13:56:43 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  rotate to non-tay degree.
+
+2025-08-08 13:56:51 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry, could you please provide more details? Such as which motor (motor_1, motor_2, or motor_3) and the specific angle you want it to rotate to.
+2025-08-08 13:56:55 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry, could you please specify the motor ID and the exact angle in degrees that you would like to rotate the motor? The angle should be between -180 and 180 degrees.
+2025-08-08 13:57:04 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 13:57:04 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 13:57:07 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 13:57:07 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [BLANK_AUDIO]
+
+2025-08-08 13:57:09 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请告诉我您想要控制哪个电机以及具体的动作，例如旋转的角度或者是否停止电机。
+2025-08-08 13:57:11 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机执行的具体操作，例如旋转某个电机到特定的角度或停止其运动。
+2025-08-08 13:57:19 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望执行的具体操作，例如控制哪个电机旋转到某个角度或停止某个电机。您可以参考以下格式：
+
+- 控制 motor_1 旋转到 90 度：`control_motor({"motor_id": "motor_1", "angle": 90})`
+- 停止 motor_2 的运动：`stop_motor({"motor_id": "motor_2"})`
+
+请告知具体需求。
+2025-08-08 13:57:21 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请描述您想要控制的电机动作，例如指定电机ID、目标旋转角度和速度等信息。
+2025-08-08 13:57:23 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID和具体动作，例如旋转的角度或完全停止。
+2025-08-08 13:57:23 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 13:57:26 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:29 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:32 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:35 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:38 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:41 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:44 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:47 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:50 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:53 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:56 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:57:59 | INFO     | __main__:main:58 - Received command:  [SOUND]
+
+2025-08-08 13:57:59 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [SOUND]
+
+2025-08-08 13:58:02 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机信息，例如电机ID和目标角度或速度。这样我才能帮助你进行控制。
+2025-08-08 13:58:04 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID和具体操作，例如旋转的角度或停止电机。我将根据您的需求调用相应的函数。
+2025-08-08 13:58:06 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的具体电机及其动作，例如旋转的角度或停止电机。
+2025-08-08 13:58:08 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的具体电机及动作细节，比如电机ID、目标旋转角度或需要停止电机等。
+2025-08-08 13:58:10 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID和具体动作，例如旋转角度或停止电机。
+2025-08-08 13:58:10 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 13:58:13 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:58:16 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:58:19 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 13:58:19 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [BLANK_AUDIO]
+
+2025-08-08 13:58:22 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID和具体的动作要求，例如旋转的角度或是否停止电机运行。
+2025-08-08 13:58:24 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请告诉我您想要控制的是哪个电机，以及具体的操作（如旋转角度或速度），我将帮助您执行相应的操作。
+2025-08-08 13:58:26 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的具体电机及其动作，例如旋转角度或停止电机等。
+2025-08-08 13:58:29 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请描述您想要控制的电机动作，例如，您想让哪个电机旋转到某个角度，或者停止某个电机等。
+2025-08-08 13:58:31 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要执行的具体动作，例如要控制哪个电机旋转到某个角度或停止某个电机。
+2025-08-08 13:58:31 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 13:58:34 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:58:37 | INFO     | __main__:main:58 - Received command:  [COUGH]
+
+2025-08-08 13:58:37 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [COUGH]
+
+2025-08-08 13:58:37 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 13:58:37 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 13:58:38 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 13:58:38 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 13:58:40 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机信息，例如电机ID和目标角度或速度。
+2025-08-08 13:58:40 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 13:58:43 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 13:58:43 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [BLANK_AUDIO]
+
+2025-08-08 13:58:45 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要执行的具体操作，例如控制哪个电机旋转到某个角度或停止电机运行。
+2025-08-08 13:58:47 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID和具体动作，例如旋转角度或停止电机。
+2025-08-08 13:58:49 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请描述您想要控制的具体电机动作，例如指定电机的旋转角度或停止电机等。
+2025-08-08 13:58:51 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请告诉我您想要控制哪个电机以及具体的操作要求，比如旋转的角度或速度。
+2025-08-08 13:58:53 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机执行的具体操作，例如旋转哪个电机到某个角度或停止电机运行。
+2025-08-08 13:58:53 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 13:58:56 | INFO     | __main__:main:58 - Received command:  Return to original position.
+
+2025-08-08 13:58:56 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Return to original position.
+
+2025-08-08 13:59:02 | INFO     | __main__:main:64 - Command result: {'success': True, 'results': [{'function': 'get_motor_status', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'status': '\n                Motor Status 1:\n                Temperature: 31°C\n                Brake Status: Released\n                Voltage: 24.30000114440918V\n                Error Code: ErrorCode.NO_ERROR\n\n                Motor Status 2:\n                Temperature: 31°C\n                Current: 0.04999999701976776A\n                Shaft Speed: 0.0 RPM\n                Shaft Angle: -90.0°\n\n                Motor Status 3:\n                Temperature: 31°C\n                Phase A Current: 0.08999999612569809A\n                Phase B Current: 0.1599999964237213A\n                Phase C Current: 0.1599999964237213A\n                '}}], 'message': '命令执行完成'}
+2025-08-08 13:59:05 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:08 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:11 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:14 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 13:59:14 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [BLANK_AUDIO]
+
+2025-08-08 13:59:16 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望控制的电机ID以及具体的动作要求，例如旋转的角度或直接停止电机等。
+2025-08-08 13:59:18 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机执行的具体操作，例如旋转哪个电机、到什么角度或停止某个电机等。
+2025-08-08 13:59:20 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机执行的具体操作，例如旋转某个电机到特定的角度或停止电机运行。
+2025-08-08 13:59:24 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请描述您想要控制的具体电机动作。例如，您可以告诉我哪个电机（motor_1, motor_2, 或 motor_3），以及您希望它做什么（比如旋转到某个角度或者停止）。
+2025-08-08 13:59:27 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机执行的具体操作，例如旋转哪个电机到什么角度或者停止某个电机。
+2025-08-08 13:59:27 | INFO     | __main__:main:64 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 13:59:30 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:33 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:36 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:39 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:42 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:45 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:48 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:51 | INFO     | __main__:main:66 - No new command received.
+2025-08-08 13:59:54 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 13:59:54 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:00:06 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 14:00:06 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:00:40 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 14:00:40 | INFO     | __main__:main:58 - Received command:  [COUGH]
+
+2025-08-08 14:00:40 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [COUGH]
+
+2025-08-08 14:00:41 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:00:41 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:00:42 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:00:42 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:00:42 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:00:42 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 14:00:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:00:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:00:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:00:54 | INFO     | __main__:main:58 - Received command:  Return to zero degree.
+
+2025-08-08 14:00:54 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Return to zero degree.
+
+2025-08-08 14:00:57 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:00:57 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:01:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:01:46 | INFO     | __main__:main:58 - Received command:  Show me the motor sticks.
+
+2025-08-08 14:01:46 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Show me the motor sticks.
+
+2025-08-08 14:01:58 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:01:58 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:01:58 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}, {'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 14:02:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:04 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:02:04 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:02:04 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:02:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:02:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:07 | INFO     | __main__:main:58 - Received command:  [COUGH]
+
+2025-08-08 14:03:07 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [COUGH]
+
+2025-08-08 14:03:10 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请忽略无效输入。请告诉我您想对哪个电机执行何种操作？例如，您可以指定一个电机并告诉它旋转到某个角度或者停止电机运行。
+2025-08-08 14:03:14 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请描述您想要控制的具体电机动作。例如，您可以告诉我哪个电机（motor_1, motor_2, 或 motor_3），以及您希望它做什么（比如旋转到某个角度或者停止）。
+2025-08-08 14:03:15 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:03:15 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:03:21 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: Please provide clear instructions on what you want to do with the motor. For example, specify which motor (motor_1, motor_2, or motor_3) you would like to control and what action you want to perform (e.g., move it to a certain angle, stop its movement, check its status).
+2025-08-08 14:03:21 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 14:03:24 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:03:24 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:03:24 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:03:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:03:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:04:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:05:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:06:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:07:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:08:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:09:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:10:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:10:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:10:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:10:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:10:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:10:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:25:40 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 14:25:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:25:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:25:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:25:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:25:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:25:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:25:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:25 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 14:26:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:26:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:17 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:20 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:23 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:27:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:02 | INFO     | __main__:main:58 - Received command:  from 45 degrees.
+
+2025-08-08 14:28:02 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  from 45 degrees.
+
+2025-08-08 14:28:16 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 45度，速度 50度/秒
+2025-08-08 14:28:16 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 45, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 45, 'speed': 50, 'message': '电机 motor_1 开始旋转到 45度'}}], 'message': '命令执行完成'}
+2025-08-08 14:28:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:22 | INFO     | __main__:main:58 - Received command:  and watching.
+ Thank you.
+
+2025-08-08 14:28:22 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  and watching.
+ Thank you.
+
+2025-08-08 14:28:31 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'get_motor_status', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'status': '\n                Motor Status 1:\n                Temperature: 29°C\n                Brake Status: Released\n                Voltage: 24.399999618530273V\n                Error Code: ErrorCode.NO_ERROR\n\n                Motor Status 2:\n                Temperature: 29°C\n                Current: 0.14999999105930328A\n                Shaft Speed: 0.0 RPM\n                Shaft Angle: -45.0°\n\n                Motor Status 3:\n                Temperature: 29°C\n                Phase A Current: -0.009999999776482582A\n                Phase B Current: -0.11999999731779099A\n                Phase C Current: -0.11999999731779099A\n                '}}], 'message': '命令执行完成'}
+2025-08-08 14:28:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:28:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:29:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:30:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:28 | INFO     | __main__:main:58 - Received command:  [INAUDIBLE]
+
+2025-08-08 14:31:28 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [INAUDIBLE]
+
+2025-08-08 14:31:33 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要控制的电机动作详情，例如你要控制的是哪个电机（motor_1, motor_2, motor_3），以及具体的操作要求，比如旋转的角度或是停止电机等。
+2025-08-08 14:31:34 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机执行的具体操作，例如旋转哪个电机以及期望的角度或速度。
+2025-08-08 14:31:37 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机执行的具体操作，例如要控制的电机编号、目标旋转角度或速度等信息。
+2025-08-08 14:31:43 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:31:43 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 14:31:46 | INFO     | __main__:main:58 - Received command:  Turn to zero degree.
+
+2025-08-08 14:31:46 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to zero degree.
+
+2025-08-08 14:31:49 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:31:49 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:31:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:31:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:16 | INFO     | __main__:main:58 - Received command:  [SPEAKING SPANISH]
+
+2025-08-08 14:32:16 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [SPEAKING SPANISH]
+
+2025-08-08 14:32:19 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: None of the functions provided support Spanish language input. Could you please provide instructions in English or specify the motor action you'd like to perform?
+2025-08-08 14:32:22 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 利用您的西班牙语似乎与此任务无关。请告诉我您希望控制哪个电机以及具体的操作，例如旋转角度或速度等。
+2025-08-08 14:32:25 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like you're speaking Spanish but didn't provide any specific request related to motor control. Could you please clarify what action you would like to perform with the motors?
+2025-08-08 14:32:33 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be a language mix-up. Could you please provide the instruction or action you'd like to perform in English or another supported language? I'll then translate it and execute the appropriate function call for controlling the motor. For now, let's focus on specifying which motor (motor_1, motor_2, motor_3) you want to control, the angle of rotation if applicable, and any other necessary details such as speed settings.
+2025-08-08 14:32:37 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:32:37 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:32:40 | INFO     | __main__:main:58 - Received command:  [INAUDIBLE]
+
+2025-08-08 14:32:40 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [INAUDIBLE]
+
+2025-08-08 14:32:42 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机进行的具体操作，例如指定电机ID、目标旋转角度或速度等信息。
+2025-08-08 14:32:44 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望电机执行的具体动作，例如旋转的角度和速度等信息。
+2025-08-08 14:32:46 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要控制的具体电机动作，例如指定电机编号和目标角度或速度。
+2025-08-08 14:32:48 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您想要控制的电机动作细节，例如电机ID、目标旋转角度等信息。
+2025-08-08 14:32:50 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 请提供您希望对电机进行的具体控制操作，例如旋转哪个电机、目标角度或速度等信息。
+2025-08-08 14:32:50 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 14:32:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:32:59 | INFO     | __main__:main:58 - Received command:  [SPEAKING SPANISH]
+
+2025-08-08 14:32:59 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [SPEAKING SPANISH]
+
+2025-08-08 14:32:59 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:33:02 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: None of the functions provided support Spanish language interaction. They are used to control motors based on their ID. Could you please provide more details about which motor you want to control?
+2025-08-08 14:33:05 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:33:05 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 14:33:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:33:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:33:14 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:33:17 | INFO     | __main__:main:58 - Received command:  Turn to zero degree.
+
+2025-08-08 14:33:17 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to zero degree.
+
+2025-08-08 14:33:19 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:33:19 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:33:22 | INFO     | __main__:main:58 - Received command:  [SPEAKING SPANISH]
+
+2025-08-08 14:33:22 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  [SPEAKING SPANISH]
+
+2025-08-08 14:33:23 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: {}
+2025-08-08 14:33:27 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: None of the functions provided support Spanish language interaction. Could you please specify a motor action you'd like to perform? For example, moving 'motor_1' to an angle of 45 degrees at a speed of 20 degrees per second.
+2025-08-08 14:33:30 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: None of the functions provided support Spanish language interaction. They are used to control motors. Could you please specify a motor action?
+2025-08-08 14:33:34 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: 对不起，我不确定您想要控制哪个电机或执行什么动作。您可以告诉我具体的操作吗？例如：“请让motor_1旋转30度并以中等速度运行”。
+2025-08-08 14:34:19 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 14:34:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:46 | INFO     | __main__:main:58 - Received command:  turn to 90 degree.
+
+2025-08-08 14:34:46 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  turn to 90 degree.
+
+2025-08-08 14:34:50 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:34:50 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:34:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:34:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:14 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:17 | INFO     | __main__:main:58 - Received command:  The first thing I thought was "let's do it."
+ I thought "let's do it."
+ I thought "let's do it."
+ I thought "let's do it."
+ I thought "let's do it."
+
+2025-08-08 14:35:17 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  The first thing I thought was "let's do it."
+ I thought "let's do it."
+ I thought "let's do it."
+ I thought "let's do it."
+ I thought "let's do it."
+
+2025-08-08 14:35:21 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: None of the motor control functions were called based on your repeated phrase. Could you please specify a motor action, such as rotating motor_1 to an angle of 90 degrees at a speed of 50 degrees per second?
+2025-08-08 14:35:29 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:35:29 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:35:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:35:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:14 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:17 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:20 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:23 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:36:56 | INFO     | __main__:main:58 - Received command:  turn to zero degree.
+
+2025-08-08 14:36:56 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  turn to zero degree.
+
+2025-08-08 14:36:59 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:36:59 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:37:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:11 | INFO     | __main__:main:58 - Received command:  turn to 30 seven degree.
+
+2025-08-08 14:37:11 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  turn to 30 seven degree.
+
+2025-08-08 14:37:15 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 30度，速度 7度/秒
+2025-08-08 14:37:15 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 30, 'motor_id': 'motor_1', 'speed': 7}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 30, 'speed': 7, 'message': '电机 motor_1 开始旋转到 30度'}}], 'message': '命令执行完成'}
+2025-08-08 14:37:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:37:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:38:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:39:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:15 | INFO     | __main__:main:58 - Received command:  So, we'll be in while.
+
+2025-08-08 14:40:15 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  So, we'll be in while.
+
+2025-08-08 14:40:23 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like you want to control the motor's movement. Could you please specify which motor (motor_1, motor_2, or motor_3) you would like to control and what action you'd like to perform, such as setting a specific angle or stopping its motion? Also, if you're planning for continuous movement, do you have a particular speed in mind?
+2025-08-08 14:40:33 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:40:33 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:40:36 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:40:36 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:40:36 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:40:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:42 | INFO     | __main__:main:58 - Received command:  Turn to zero degree.
+
+2025-08-08 14:40:42 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to zero degree.
+
+2025-08-08 14:40:45 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:40:45 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:40:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:40:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:06 | INFO     | __main__:main:58 - Received command:  Turn to zero.
+
+2025-08-08 14:41:06 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to zero.
+
+2025-08-08 14:41:10 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:41:10 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:41:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:19 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:41:19 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:41:19 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:41:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:34 | INFO     | __main__:main:58 - Received command:  Turn to minus 90 degree.
+
+2025-08-08 14:41:34 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to minus 90 degree.
+
+2025-08-08 14:41:37 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 -90度，速度 50度/秒
+2025-08-08 14:41:37 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': -90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': -90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 -90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:41:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:41:43 | INFO     | __main__:main:58 - Received command:  Move to slow.
+
+2025-08-08 14:41:43 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Move to slow.
+
+2025-08-08 14:41:48 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: To clarify, would you like me to move a specific motor slowly or stop the motors from moving? Please provide more details such as the motor ID if it's about movement. If it's about stopping the motors, which ones do you want to stop?
+2025-08-08 14:41:57 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 20度/秒
+2025-08-08 14:41:57 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 20}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 20, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:42:00 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:42:00 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:42:00 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:42:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:21 | INFO     | __main__:main:58 - Received command:  Turn to 90 degree.
+
+2025-08-08 14:42:21 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to 90 degree.
+
+2025-08-08 14:42:24 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:42:24 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:42:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:36 | INFO     | __main__:main:58 - Received command:  Turn to zero degree.
+
+2025-08-08 14:42:36 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to zero degree.
+
+2025-08-08 14:42:40 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:42:40 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:42:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:42:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:04 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:43:04 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:43:04 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:43:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:40 | INFO     | __main__:main:58 - Received command:  Turn to 90 degree.
+
+2025-08-08 14:43:40 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to 90 degree.
+
+2025-08-08 14:43:43 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:43:43 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:43:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:43:55 | INFO     | __main__:main:58 - Received command:  Turn to zero degree.
+
+2025-08-08 14:43:55 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to zero degree.
+
+2025-08-08 14:43:58 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:43:58 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:44:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:04 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:07 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:16 | INFO     | __main__:main:58 - Received command:  Turn to minus 45 degrees.
+
+2025-08-08 14:44:16 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to minus 45 degrees.
+
+2025-08-08 14:44:23 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 -45度，速度 50度/秒
+2025-08-08 14:44:23 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': -45, 'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': -45, 'speed': 50, 'message': '电机 motor_1 开始旋转到 -45度'}}], 'message': '命令执行完成'}
+2025-08-08 14:44:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:29 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:44:29 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:44:29 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:44:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:44:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:14 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:17 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:20 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:23 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:44 | INFO     | __main__:main:58 - Received command:  Turn to 99 degrees.
+
+2025-08-08 14:45:44 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to 99 degrees.
+
+2025-08-08 14:45:48 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 99度，速度 50度/秒
+2025-08-08 14:45:48 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 99, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 99, 'speed': 50, 'message': '电机 motor_1 开始旋转到 99度'}}], 'message': '命令执行完成'}
+2025-08-08 14:45:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:45:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:03 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:46:03 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:46:03 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:46:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:21 | INFO     | __main__:main:58 - Received command:  Reset.
+
+2025-08-08 14:46:21 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Reset.
+
+2025-08-08 14:46:23 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:46:23 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 14:46:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:50 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:46:50 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:46:50 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:46:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:46:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:14 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:17 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:20 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:23 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:47:59 | INFO     | __main__:main:58 - Received command:  Turn to zero degrees.
+
+2025-08-08 14:47:59 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to zero degrees.
+
+2025-08-08 14:48:02 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:48:02 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:48:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:14 | INFO     | __main__:main:58 - Received command:  [BLANK_AUDIO]
+
+2025-08-08 14:48:14 | INFO     | __main__:main:63 - Received blank audio, skipping command execution.
+2025-08-08 14:48:14 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': 'Received blank audio'}
+2025-08-08 14:48:17 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:20 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:23 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:48:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:14 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:17 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:20 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:23 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:49:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:08 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:11 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:14 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:17 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:20 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:23 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:50 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:53 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:56 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:50:59 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:02 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:05 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:51:46 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 14:51:46 | INFO     | __main__:main:58 - Received command:  And then we will have a little bit of food.
+
+2025-08-08 14:51:46 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  And then we will have a little bit of food.
+
+2025-08-08 14:51:54 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:51:54 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 14:51:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:52:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:53:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:53:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:53:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:53:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:53:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:53:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:53:18 | INFO     | __main__:main:58 - Received command:  We don't do 90 degree.
+
+2025-08-08 14:53:18 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  We don't do 90 degree.
+
+2025-08-08 14:53:23 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems there might have been a misunderstanding. Could you please clarify what you want the motor to do instead of rotating 90 degrees? For example, do you want to stop the motor, control it to another angle, or change its speed?
+2025-08-08 14:53:29 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be some confusion. Could you please clarify if you want the motor to rotate less than or more than 90 degrees, or is there another action you'd like to perform with the motor? For example, would you like to stop the motor or set it to a different angle?
+2025-08-08 14:53:35 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems there might have been a misunderstanding. Could you please clarify what you mean by "We don't do 90 degree"? Do you want to control the rotation of a motor to an angle other than 90 degrees, or is there another action you would like to take? Please provide more details so I can assist you properly.
+2025-08-08 14:53:39 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems there might have been a misunderstanding. Could you please clarify if you want the motor to stop or move to a different angle? For example, do you want to rotate the motor by a specific angle or just stop it from moving?
+2025-08-08 14:53:51 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 45度，速度 50度/秒
+2025-08-08 14:53:51 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 45, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 45, 'speed': 50, 'message': '电机 motor_1 开始旋转到 45度'}}], 'message': '命令执行完成'}
+2025-08-08 14:53:54 | INFO     | __main__:main:58 - Received command:  We don't go. We don't go.
+
+2025-08-08 14:53:54 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  We don't go. We don't go.
+
+2025-08-08 14:53:58 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there's no motor control action to be performed based on your input "We don't go. We don't go." Could you please provide more details or specify a motor action you'd like to perform?
+2025-08-08 14:54:04 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems there might be a misunderstanding or miscommunication in your request. Could you please specify which motor you want to control, the angle you want it to rotate to, and any other necessary details such as speed? If you just want to stop the motors, I can assist with that too. Please provide clear instructions so I can help properly.
+2025-08-08 14:54:09 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems there was a misunderstanding. Could you please provide more details on what you want the motor to do? For example, specify which motor (motor_1, motor_2, or motor_3) and whether you want it to rotate to a certain angle or stop.
+2025-08-08 14:54:20 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be a misunderstanding or typo in your request as it doesn't provide any specific action related to motor control. Could you please specify which motor you want to control and what operation you'd like to perform (e.g., move the motor to a certain angle, stop the motor, etc.)? Here are some examples of how you can instruct me:
+
+1. Move `motor_1` to an angle of 90 degrees.
+2. Stop `motor_3`.
+3. Get the status of `motor_2`.
+
+Please provide more details so I can assist you properly.
+2025-08-08 14:54:27 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: None of the provided functions correspond to stopping or controlling motor actions based on the given phrase "We don't go. We don't go." However, if you intend to stop a motor, you can use the `stop_motor` function. Could you please specify which motor needs to be stopped? For example: `stop_motor({"motor_id": "motor_1"})`.
+2025-08-08 14:54:27 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 14:54:30 | INFO     | __main__:main:58 - Received command:  Thank you very well.
+
+2025-08-08 14:54:30 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Thank you very well.
+
+2025-08-08 14:54:39 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:54:39 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 14:54:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:54:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:54:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:54:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:54:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:54:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:55:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:55:03 | INFO     | __main__:main:58 - Received command:  Go back to reverse degrees.
+
+2025-08-08 14:55:03 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Go back to reverse degrees.
+
+2025-08-08 14:55:09 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 -45度，速度 50度/秒
+2025-08-08 14:55:09 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': -45, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': -45, 'speed': 50, 'message': '电机 motor_1 开始旋转到 -45度'}}], 'message': '命令执行完成'}
+2025-08-08 14:55:12 | INFO     | __main__:main:58 - Received command:  Reverse.
+
+2025-08-08 14:55:12 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Reverse.
+
+2025-08-08 14:55:19 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like you want to reverse the direction of the motor. However, your description is a bit vague. Could you please specify which motor (motor_1, motor_2, or motor_3) you would like to control and the target angle or speed? For example, "Reverse motor_1 by 90 degrees."
+2025-08-08 14:55:22 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: To clarify, could you please specify which motor to reverse and at what speed? For example, "Reverse motor_1 at 50 degrees per second."
+2025-08-08 14:55:29 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:55:29 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 14:55:32 | INFO     | __main__:main:58 - Received command:  Back to zero degree.
+
+2025-08-08 14:55:32 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Back to zero degree.
+
+2025-08-08 14:55:36 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 14:55:36 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 14:55:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:55:42 | INFO     | __main__:main:58 - Received command:  Thank you very well.
+
+2025-08-08 14:55:42 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Thank you very well.
+
+2025-08-08 14:55:45 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No problem! If you need any motor control assistance in the future, feel free to ask. For now, do you have a specific motor action you'd like me to perform?
+2025-08-08 14:55:51 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No problem! If you need to control any motors or check their status, feel free to give me instructions. For example, you can ask me to move `motor_1` to an angle of 90 degrees at a speed of 50 degrees per second. How can I assist you now?
+2025-08-08 14:56:01 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:56:02 | ERROR    | llm.ollama_motor_controller:process_ollama_response:214 - 处理Ollama响应失败: Interface 'can0' - Could not read CAN frame: Resource temporarily unavailable
+2025-08-08 14:56:07 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No need to thank me! If you have any specific motor control requests or other tasks, feel free to ask. For now, since there's no specific task, I'll just keep waiting for your instructions. Is there anything particular you'd like the motors to do?
+2025-08-08 14:56:09 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No problem! If you need any help controlling the motors, feel free to provide more instructions.
+2025-08-08 14:56:09 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 14:56:12 | INFO     | __main__:main:58 - Received command:  Turn to right direction.
+
+2025-08-08 14:56:12 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to right direction.
+
+2025-08-08 14:56:15 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:56:15 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:56:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:56:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:56:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:56:27 | INFO     | __main__:main:58 - Received command:  Thank you very well.
+
+2025-08-08 14:56:27 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Thank you very well.
+
+2025-08-08 14:56:32 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No problem! If you need any assistance with controlling the motor, feel free to ask. For now, there are no specific actions to perform based on your message. Would you like to control a motor or check its status?
+2025-08-08 14:56:34 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No problem! If you need to control any motors or check their status, feel free to give me instructions.
+2025-08-08 14:56:44 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:56:45 | ERROR    | llm.ollama_motor_controller:process_ollama_response:214 - 处理Ollama响应失败: Interface 'can0' - Could not read CAN frame: Resource temporarily unavailable
+2025-08-08 14:56:57 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 14:56:58 | ERROR    | llm.ollama_motor_controller:process_ollama_response:214 - 处理Ollama响应失败: Interface 'can0' - Could not read CAN frame: Resource temporarily unavailable
+2025-08-08 14:57:06 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No need to thank me! If you have any questions about the motors or need further control, feel free to ask. For now, let's keep it idle. 
+
+Since there are no specific motor control actions requested, I'll just keep the system as is. If you want to proceed with a particular action on a motor, please provide more details.
+
+If you're ready for a demonstration or another task, let me know!
+2025-08-08 14:57:06 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 14:57:09 | INFO     | __main__:main:58 - Received command:  Turn to right direction.
+
+2025-08-08 14:57:09 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to right direction.
+
+2025-08-08 14:57:12 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 14:57:12 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 14:57:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:57:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:54 | INFO     | llm.ollama_motor_controller:__init__:89 - Ollama电机控制器初始化完成, 模型: qwen2.5:7b-instruct
+2025-08-08 14:58:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:58:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:03 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:06 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:09 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:12 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:15 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:18 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:21 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:24 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:48 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:51 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:54 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 14:59:57 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:00:00 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:00:03 | INFO     | __main__:main:58 - Received command:  Thank you very much.
+
+2025-08-08 15:00:03 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Thank you very much.
+
+2025-08-08 15:00:08 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No need to thank me! If you have any questions or need help controlling the motor, feel free to ask. For now, there's no specific action requested. Is there anything else you'd like to do with the motor?
+2025-08-08 15:00:18 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No problem! If you need any assistance with controlling the motors, feel free to ask. For now, there are no motor control tasks in your request. Would you like to perform an action with one of the motors? If so, please specify which motor (motor_1, motor_2, or motor_3), the target angle in degrees (-180 to 180), and the speed in degrees per second (1 to 100). If you just want to check the status of a motor, let me know which one as well.
+2025-08-08 15:00:22 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No need to thank me! If you have any questions or need assistance controlling the motors, feel free to ask. For now, there's no specific action required. Is there something particular you'd like to do with the motor next?
+2025-08-08 15:00:33 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 15:00:34 | ERROR    | llm.ollama_motor_controller:process_ollama_response:214 - 处理Ollama响应失败: Interface 'can0' - Could not read CAN frame: Resource temporarily unavailable
+2025-08-08 15:00:38 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: No need to thank me! If you have any questions about controlling the motors, feel free to ask. For now, do you want to control a specific motor or get its current status? Please provide more details so I can assist you better.
+2025-08-08 15:00:38 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 15:00:41 | INFO     | __main__:main:58 - Received command:  Go back to zero.
+
+2025-08-08 15:00:41 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Go back to zero.
+
+2025-08-08 15:00:43 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 15:00:43 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 15:00:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:00:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:00:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:00:55 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:00:58 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:01:01 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:01:04 | INFO     | __main__:main:58 - Received command:  Just a lot of weeks. A lot of weeks. Aye nya.
+
+2025-08-08 15:01:04 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Just a lot of weeks. A lot of weeks. Aye nya.
+
+2025-08-08 15:01:10 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like the input is not clear for motor control instructions. Could you please provide specific details about the motor action you want to perform, such as which motor (motor_1, motor_2, or motor_3) and what angle or speed you would like it to move at?
+2025-08-08 15:01:15 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be some confusion or missing context in your request regarding motor control. Could you please specify which motor (motor_1, motor_2, or motor_3) and what action you'd like to perform such as setting a certain angle or speed?
+2025-08-08 15:01:19 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like the input is not clear for motor control instructions. Could you please specify which motor to control, and what action you want to perform (e.g., rotate to a certain angle, stop, etc.)?
+2025-08-08 15:01:22 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like the input is not clear for motor control instructions. Could you please provide specific details about which motor to control, the desired angle or speed?
+2025-08-08 15:01:30 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be some confusion or missing context in your request. Could you please clarify what specific action you want to perform on which motor? For example, do you want to rotate `motor_1` by a certain angle at a specified speed, stop `motor_2`, or get the status of `motor_3`?
+
+Once you provide more details, I can help you with the appropriate function call.
+2025-08-08 15:01:30 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 15:01:33 | INFO     | __main__:main:58 - Received command:  Go back to zero.
+
+2025-08-08 15:01:33 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Go back to zero.
+
+2025-08-08 15:01:42 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 15:01:42 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 15:01:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:01:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:01:52 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:01:55 | INFO     | __main__:main:58 - Received command:  (crying)
+
+2025-08-08 15:01:55 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  (crying)
+
+2025-08-08 15:02:00 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be an issue or misunderstanding. Could you please describe the motor action you want to perform? For example, do you want to rotate a specific motor to a certain angle at a particular speed or stop a motor from moving? Please provide clear instructions so I can assist you properly.
+2025-08-08 15:02:09 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 15:02:09 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 -360度，速度 50度/秒
+2025-08-08 15:02:09 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}, {'function': 'control_motor', 'arguments': {'angle': -360, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': -360, 'speed': 50, 'message': '电机 motor_1 开始旋转到 -360度'}}], 'message': '命令执行完成'}
+2025-08-08 15:02:12 | INFO     | __main__:main:58 - Received command:  Turn to right direction.
+
+2025-08-08 15:02:12 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to right direction.
+
+2025-08-08 15:02:16 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 15:02:16 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 15:02:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:22 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:25 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:28 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:31 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:34 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:37 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:40 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:43 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:46 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:02:49 | INFO     | __main__:main:58 - Received command:  (crying)
+ (speaking in foreign language)
+
+2025-08-08 15:02:49 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  (crying)
+ (speaking in foreign language)
+
+2025-08-08 15:02:53 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry, I couldn't understand the instructions due to the crying sound and the foreign language. Could you please repeat your request in clear English? If necessary, I can provide assistance in controlling the motor after understanding your needs.
+2025-08-08 15:02:58 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be some misunderstanding. Could you please provide clear instructions on what motor action you'd like to perform? For example, which motor ID are you referring to and do you want to move it to a specific angle or stop its movement?
+2025-08-08 15:03:00 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry, I couldn't understand the instruction. Could you please provide a clear description of what you want to do with the motor?
+2025-08-08 15:03:05 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be some misunderstanding or technical issues as the input is not clear. Could you please provide more specific details about what motor action you would like to perform? For example, which motor do you want to control, and what angle or speed should it have?
+2025-08-08 15:03:11 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like there might be some misunderstanding or miscommunication. Could you please describe the action you want to perform on the motor in clear terms? For example, you could say something like "Make motor_1 rotate 90 degrees at a speed of 50 degrees per second."
+2025-08-08 15:03:11 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 15:03:14 | INFO     | __main__:main:58 - Received command:  Go back to zero.
+
+2025-08-08 15:03:14 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Go back to zero.
+
+2025-08-08 15:03:24 | INFO     | motor_controller.myactuator_controller_ollama:stop_motor:84 - 停止电机 motor_1
+2025-08-08 15:03:24 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'stop_motor', 'arguments': {'motor_id': 'motor_1'}, 'result': {'success': True, 'motor_id': 'motor_1', 'message': '电机 motor_1 已停止'}}], 'message': '命令执行完成'}
+2025-08-08 15:03:27 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:30 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:33 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:36 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:39 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:42 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:45 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:49 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:03:52 | INFO     | __main__:main:58 - Received command:  Zero degree.
+
+2025-08-08 15:03:52 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Zero degree.
+
+2025-08-08 15:04:01 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': ''}, 'result': {'success': False, 'error': '无效的电机ID: '}}], 'message': '命令执行完成'}
+2025-08-08 15:04:04 | INFO     | __main__:main:58 - Received command:  Go back to zero degree.
+
+2025-08-08 15:04:04 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Go back to zero degree.
+
+2025-08-08 15:04:07 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 0度，速度 50度/秒
+2025-08-08 15:04:07 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 0, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 0, 'speed': 50, 'message': '电机 motor_1 开始旋转到 0度'}}], 'message': '命令执行完成'}
+2025-08-08 15:04:10 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:13 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:16 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:19 | INFO     | __main__:main:58 - Received command:  Turn to your right.
+
+2025-08-08 15:04:19 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  Turn to your right.
+
+2025-08-08 15:04:23 | INFO     | motor_controller.myactuator_controller_ollama:control_motor:29 - 控制电机 motor_1 旋转到 90度，速度 50度/秒
+2025-08-08 15:04:23 | INFO     | __main__:main:68 - Command result: {'success': True, 'results': [{'function': 'control_motor', 'arguments': {'angle': 90, 'motor_id': 'motor_1', 'speed': 50}, 'result': {'success': True, 'motor_id': 'motor_1', 'target_angle': 90, 'speed': 50, 'message': '电机 motor_1 开始旋转到 90度'}}], 'message': '命令执行完成'}
+2025-08-08 15:04:26 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:29 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:32 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:35 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:38 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:41 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:44 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:47 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:04:50 | INFO     | __main__:main:58 - Received command:  (crying)
+
+2025-08-08 15:04:50 | INFO     | llm.ollama_motor_controller:execute_natural_language_command:219 - 收到自然语言命令:  (crying)
+
+2025-08-08 15:04:54 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry to hear that. Could you please provide me with more details about the motor action you want to perform? For example, which motor do you want to control and what angle or speed should it be set to?
+2025-08-08 15:04:59 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry to hear that. However, could you please provide more details on what you want the motor to do? For example, which motor (motor_1, motor_2, or motor_3) do you want to control, and what specific action should it perform?
+2025-08-08 15:05:06 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: It seems like you're feeling upset. However, to assist you better, could you please describe the motor action you want to perform? For example, you might want to control 'motor_1' to rotate 90 degrees at a speed of 50 degrees per second. Please provide details so I can help you with the appropriate function call.
+2025-08-08 15:05:12 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry to hear that. However, I need more information on what you want the motor to do. Could you please specify which motor you're referring to and the action you wish to perform? For example, "Make motor_1 rotate 90 degrees at a speed of 50 degrees per second."
+2025-08-08 15:05:16 | WARNING  | llm.ollama_motor_controller:process_ollama_response:176 - Ollama未返回tool_calls，尝试解析content: I'm sorry to hear that. However, I need more details about the motor you want to control. Could you please specify which motor (motor_1, motor_2, or motor_3) and what action you want to perform?
+2025-08-08 15:05:16 | INFO     | __main__:main:68 - Command result: {'success': False, 'error': '模型未返回有效的function calling'}
+2025-08-08 15:05:19 | INFO     | __main__:main:70 - No new command received.
+2025-08-08 15:05:22 | INFO     | __main__:main:70 - No new command received.
