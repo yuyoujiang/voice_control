@@ -40,12 +40,6 @@ def main():
 
     # 初始化控制器
     controller = MyActuatorControllerOllama(model=args.model, base_url=args.url)
-    
-    while True:
-    	controller.control_motor("motor_1", 0, 300)
-    	time.sleep(3)
-    	controller.control_motor("motor_1", 360, 300)
-    	time.sleep(3)
     	
     # result = controller.execute_natural_language_command("Let motor 3 rotate to 360 degrees")
     # status = controller.get_motor_status("motor_1")
@@ -56,26 +50,26 @@ def main():
     # controller.stop_motor("motor_1")
     # print("running done")
     
-#    history_command = ""
-#    while True:
-#        command = get_asr_result()
-#        if command and command != history_command:
-#            history_command = command
-#            logger.info(f"Received command: {command}")
-#            try:
-#                if "BLANK_AUDIO" not in command and "(" not in command and "[" not in command:
-#                    result = controller.execute_natural_language_command(command)
-#                else:
-#                    logger.info("Received blank audio, skipping command execution.")
-#                    result = {"success": False, "error": "Received blank audio"}
-#            except Exception as e:
-#                logger.error(f"执行命令失败: {e}")
-#                result = {"success": False, "error": str(e)}
-#            logger.info(f"Command result: {result}")
-#        else:
-#            logger.info("No new command received.")
-        
-#        time.sleep(3)  # 模拟处理时间
+    history_command = ""
+    while True:
+        command = get_asr_result()
+        if command and command != history_command:
+            history_command = command
+            logger.info(f"Received command: {command}")
+            try:
+                if "BLANK_AUDIO" not in command and "(" not in command and "[" not in command:
+                    result = controller.execute_natural_language_command(command)
+                else:
+                    logger.info("Received blank audio, skipping command execution.")
+                    result = {"success": False, "error": "Received blank audio"}
+            except Exception as e:
+                logger.error(f"执行命令失败: {e}")
+                result = {"success": False, "error": str(e)}
+            logger.info(f"Command result: {result}")
+        else:
+            logger.info("No new command received.")
+            
+        time.sleep(3)  # 模拟处理时间
 
 
 if __name__ == "__main__":
